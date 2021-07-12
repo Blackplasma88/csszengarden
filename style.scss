@@ -1,0 +1,77 @@
+$primary-color:rgb(63, 53, 53);
+$secondary-color: rgb(94, 45, 185);
+$fontSizeTopic: 2em;
+$backColor1: rgba(33, 175, 33, 0.8);
+$backColor2: rgb(231, 223, 207);
+$layout1: 20px 80px 20px 80px;
+$layout2: 0px 0px 0px 30px;
+
+.intro{
+    header{
+        background-color: $backColor1;
+        color: rgb(210, 233, 192);
+        font-size: 2em;
+        text-align: center;
+        padding: 10px;
+    }
+    .summary{
+        background-color: $backColor2;
+        color: $primary-color;
+        padding: 20px 80px 15px 110px;
+        a{
+            text-decoration: none;
+            color: $secondary-color;
+        }
+    }
+    .preamble{
+        padding: $layout1;
+        background-color: $backColor1;
+        p{
+            color: $primary-color;
+            padding: $layout2;
+        }
+    }
+    h3{
+        font-size: $fontSizeTopic;
+    }
+}
+
+.main{
+    .explanation,.participation,.benefits,.requirements{
+        padding: $layout1;
+    }
+    .explanation,.benefits{
+        background-color: $backColor2;
+    }
+    .participation,.requirements{
+        background-color: $backColor1;
+    }
+    h3{
+        font-size: $fontSizeTopic;
+    }
+    p{
+        color: $primary-color;
+        padding: $layout2;
+    }
+    a{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+    footer{
+        background-color: $backColor2;
+        a{
+            color: $secondary-color;
+        }
+        text-align: center;
+        padding: 30px 40px;
+    }
+}
+
+.sidebar{
+    background-color: rgba(41, 28, 100, 0.6);
+    padding: 20px 80px 20px 20px;
+    a{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+}

@@ -1,0 +1,67 @@
+.intro header {
+  background-color: rgba(33, 175, 33, 0.8);
+  color: #d2e9c0;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+}
+.intro .summary {
+  background-color: #e7dfcf;
+  color: #3f3535;
+  padding: 20px 80px 15px 110px;
+}
+.intro .summary a {
+  text-decoration: none;
+  color: #5e2db9;
+}
+.intro .preamble {
+  padding: 20px 80px 20px 80px;
+  background-color: rgba(33, 175, 33, 0.8);
+}
+.intro .preamble p {
+  color: #3f3535;
+  padding: 0px 0px 0px 30px;
+}
+.intro h3 {
+  font-size: 2em;
+}
+
+.main .explanation, .main .participation, .main .benefits, .main .requirements {
+  padding: 20px 80px 20px 80px;
+}
+.main .explanation, .main .benefits {
+  background-color: #e7dfcf;
+}
+.main .participation, .main .requirements {
+  background-color: rgba(33, 175, 33, 0.8);
+}
+.main h3 {
+  font-size: 2em;
+}
+.main p {
+  color: #3f3535;
+  padding: 0px 0px 0px 30px;
+}
+.main a {
+  text-decoration: none;
+  color: #5e2db9;
+}
+.main footer {
+  background-color: #e7dfcf;
+  text-align: center;
+  padding: 30px 40px;
+}
+.main footer a {
+  color: #5e2db9;
+}
+
+.sidebar {
+  background-color: rgba(41, 28, 100, 0.6);
+  padding: 20px 80px 20px 20px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #5e2db9;
+}
+
+/*# sourceMappingURL=style.css.map */

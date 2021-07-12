@@ -1,8 +1,9 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
 > [Your name]
->  
+>  Natthapol Promkheeree
 > [Your ID]
+>  6210406564
 
 ## Task
 
